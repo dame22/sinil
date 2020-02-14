@@ -1,0 +1,420 @@
+@import url('common.css');
+
+/*----------------------------*/
+.wrap{
+    width: 1920px;
+    position: relative;
+}
+
+
+header{
+    width: 100%; height: 120px;
+    display: flex; justify-content: space-between; align-items: center;
+    padding: 0 240px;
+}
+header hi{}
+header hi img{}
+header nav{}
+header nav ul{
+    display: flex;}
+header nav ul li{
+    margin-left: 60px;
+    font-size: 20px; font-weight: bold;
+}
+
+header nav ul li:after{
+    content: ''; display: block; width: 0%; height: 5px;
+    background: #274666; margin: 0 auto;
+    transition: .7s;
+}
+
+header nav ul li:hover:after{
+    width: 100%;
+}
+
+
+/*-----------visual---------------*/
+
+
+figure{}
+
+section>figure figcaption{
+    width: 800px; height: 250px;
+    background: rgba(0,0,0,0.6); border: 8px solid #fff;
+    display: flex; justify-content: center; align-items: center;
+    text-align: center;
+    position: absolute; left: 50%; top: 6%;
+    transform: translateX(-50%);
+    color: #fff; font-size: 58px;
+    display: flex; flex-direction: column
+}
+
+figure figcaption strong{
+    color: #fff;
+    font-size: 82px;
+}
+
+section{
+    position: relative;
+    left: 0; top: 0
+}
+section p{}
+sectionp figure img{
+    width: 100%;}
+
+
+/*자동차, 중장비, 전자*/
+
+
+section ul{
+    position: relative; left: 49%; top: 50%;
+    transform: translate(-50%,-50%);
+    display: flex; justify-content: center
+}
+section ul li{
+    width: 450px; height: 200px; background: #000;
+    text-align: center;
+    margin-left: 45px; padding: 0 40px;
+    align-items: center;
+
+}
+section ul li img{
+    width: 120px; height: 120px;
+    margin: 40px 0;
+    float: left;
+}
+section ul li a{
+    color: #fff; font-size: 24px;
+    display: block;
+    padding: 40px 0;
+    position: relative;
+}
+
+section ul li a:after{
+    content: ''; display: block;
+    width: 110px; height: 1px;
+    background: #fff;
+    position: absolute; right: 70px; top: 90px;
+}
+
+section ul li span{
+    color: #fff;
+    font-size: 14px;
+    white-space:pre-line    
+}
+
+
+/*-----------con_01----------*/
+
+section .container h2{
+    padding: 100px 0 50px 240px;
+    font-size: 48px;
+    position: relative;
+}
+
+section .container h2:after{
+    content: '';
+    width: 295px; height: 11px;
+    background: #ffcf07;
+    position: absolute; left: 240px; bottom: 55px;
+    z-index: -10;
+}
+
+section .container .con_01{
+    display: flex;
+    padding: 0 240px;
+}
+section .container .con_01 h2{
+    display: block; }
+section .container .con_01 figure{
+    width: 300px; height: 390px;
+    background:#f0f5f7;
+    padding: 12px;
+    margin-left: 80px;
+}
+section .container .con_01 figure:nth-of-type(1){
+    margin-left: 0;
+}
+section .container .con_01 figure img{}
+section .container .con_01 figure figcaption{
+    font-size: 22px;
+    font-weight: bold;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 50px 
+}
+
+/*----------con_02-----------*/
+
+
+section .container .con_02 h3{
+    width: 100%;
+    margin-top: 200px;
+    padding: 0 240px;
+    font-size: 48px;
+    position: relative;
+    text-align: center;
+}
+
+section .container .con_02 h3:after{
+    content: '';
+    width: 450px; height: 11px;
+    background: #ffcf07;
+    position: absolute; left: 735px; bottom: 3px;
+    z-index: -10;
+}
+
+
+section .container .con_02 h3 span:nth-of-type(1){
+    content: '';
+    display: block;
+    width: 450px; height: 1px;
+    border-bottom: 5px dotted #000;
+    position: absolute; left: 240px; top: 40px;
+    
+}
+
+section .container .con_02 h3 span:nth-of-type(2){
+    content: '';
+    display: block;
+    width: 450px; height: 1px;
+    border-bottom: 5px dotted #000;
+    position: absolute; right: 240px; top: 40px;
+    
+}
+
+section .container .con_02{
+    height: 1000px
+    
+}
+section .container .con_02 dl{
+      position: relative; left: 0; top: 0
+}
+section .container .con_02 dl dt{
+    text-align: center;
+    padding: 75px 0 0 0
+    
+    
+}
+section .container .con_02 dl dd{
+    position: absolute;
+}
+section .container .con_02 dl dd img{
+    border: 3px solid #000;
+    padding-top: 55px;
+    background:#fff;
+    
+}
+
+section .container .con_02 dl dd:nth-of-type(1){
+    left: 240px; top: 200px;
+}
+section .container .con_02 dl dd:nth-of-type(2){
+    left: 750px; top: 300px;
+}
+section .container .con_02 dl dd:nth-of-type(3){
+    right: 240px; top: 200px;
+}
+
+
+/*-------con_03--------*/
+
+
+
+section .container .con_03{
+    display: flex; align-items: center;
+    flex-direction: column;
+    height: 1000px;
+}
+section .container .con_03 p{
+    width: 450px;
+    border-top: 5px dotted #000;
+    text-align: center;
+}
+
+section .container .con_03 p img{
+    padding-top: 55px;
+}
+
+
+section .container .con_03 ol{
+   position: relative; left: 0; top: 0;   
+}
+section .container .con_03 ol li{
+     position: absolute; left: 0; top: 0;
+ 
+}
+section .container .con_03 ol li img{
+    border: 3px solid #000;
+    padding-top: 55px;
+    background: #fff;
+  
+}
+
+section .container .con_03 ol li:nth-of-type(1){
+   left:-700px; top:0px
+   
+}
+section .container .con_03 ol li:nth-of-type(2){
+    left: -200px; top: 100px
+}
+section .container .con_03 ol li:nth-of-type(3){
+    left: 340px; top;200px;
+}
+
+
+
+/*-------------con_04--------------*/
+
+section .container .con_04{
+    width: 100%; height: 100px;
+    background: #eee;
+    padding: 0 600px;
+    display: flex; justify-content: space-between;
+    align-items: center;
+}
+section .container .con_04 a{}
+section .container .con_04 a img{}
+
+
+
+/*-------------footer--------------*/
+
+
+
+
+
+.wrap footer{
+    width: 100%; height: 200px;
+    background: #274666;
+    padding: 0 240px;
+    display: flex;
+}
+.wrap footer p{}
+
+.wrap footer p span{
+    color: #fff;
+}
+
+.wrap footer p:nth-of-type(1){
+    display: flex; align-items: center;
+    float: left;
+}
+.wrap footer p:nth-of-type(1) strong{
+    color: #fff; font-size: 30px;
+    padding: 0 20px 10px 20px
+}
+
+.wrap footer p:nth-of-type(1):after{
+    content: ''; width: 1px ; height: 110px;
+    display: block; background: #999;
+    margin: 30px ;
+}
+
+.wrap footer p:nth-of-type(2){
+    padding-top: 30px
+} 
+
+.wrap footer p:nth-of-type(2) span{
+    display: block;
+    font-size: 14px;
+    padding-top: 20px;
+}
+.wrap footer a{
+    display: flex; justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 400px
+
+}
+.wrap footer a span{
+    color:#fff;
+    font-size: 14px;
+    text-decoration: underline;
+    margin-top:10px
+    
+}
+
+
+
+/*===============fixed=============*/
+
+.wrap aside{
+    position: fixed;
+    right: 50px; top: 50%;
+}
+.wrap aside p{
+    width: 85px; height: 50px;
+    background: #274666 ;
+    color: #fff; font-size: 14px; font-weight: bold;
+    display: flex; justify-content: center;
+    align-items: center; text-align: center;
+    white-space: pre-line;
+    margin-top: 10px;
+    position: relative; 
+    
+}
+
+.wrap aside p:nth-of-type(1):after{
+    content: ''; display: block;
+    position: fixed; right: 0px; top: ;
+    width: 0px; height: 0px;
+    border-top:25px solid transparent;
+    border-bottom:25px solid transparent;
+    border-right: 25px solid transparent;
+    border-left: 25px solid  #274666;
+}
+.wrap aside p:nth-of-type(2):after{
+     content: ''; display: block;
+    position: fixed; right: 0px; top: ;
+    width: 0px; height: 0px;
+    border-top:25px solid transparent;
+    border-bottom:25px solid transparent;
+    border-right: 25px solid transparent;
+    border-left: 25px solid  #274666;
+}
+.wrap aside p:nth-of-type(3):after{
+     content: ''; display: block;
+    position: fixed; right: 0px; top: ;
+    width: 0px; height: 0px;
+    border-top:25px solid transparent;
+    border-bottom:25px solid transparent;
+    border-right: 25px solid transparent;
+    border-left: 25px solid  #274666;
+}
+
+/*fixed 선 */
+
+section .container:after{
+    content: '';
+    display: block;
+    position: fixed; right: 25px; top: 0;
+    width: 1px; height: 100%;
+    background: #eee;
+    z-index: -10
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
